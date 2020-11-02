@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+ 
+/* purgecss start ignore */
+/* purgecss end ignore */
+ 
+@tailwind utilities;
+
+
+.paragraph p{
+    margin-bottom: 25px;
+}
+.gradTealBg{
+    background: rgb(20,142,176);
+background: linear-gradient(0deg, rgba(20,142,176,1) 29%, rgba(47,47,52,0) 100%);
+}
+
+.bgTeam{
+    background-image: url('images/teamBg.jpg');
+    background-size: cover;
+}
+
+.shadow-innerBg{
+    -webkit-box-shadow: inset 0px 0px 36px 4px rgba(0,0,0,0.39);
+-moz-box-shadow: inset 0px 0px 36px 4px rgba(0,0,0,0.39);
+box-shadow: inset 0px 0px 36px 4px rgba(0,0,0,0.39);
+}
+
+.deepShadow{
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.42);
+box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.42);
+}
+
+.shadow-innerBgTop{
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.39);
+-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.39);
+box-shadow: inset 1px 4px 9px -6px  rgba(0,0,0,0.39);
+
+}
+
+.rotate-90 {
+
+    transform: rotate(-90deg);
+  
+  
+    /* Legacy vendor prefixes that you probably don't need... */
+  
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+  
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+  
+    /* IE */
+    -ms-transform: rotate(-90deg);
+  
+    /* Opera */
+    -o-transform: rotate(-90deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+  }
